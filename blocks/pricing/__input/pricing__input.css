@@ -1,0 +1,11 @@
+.pricing__input {
+  display: flex;
+  flex-direction: row;
+  justify-content: center;
+  margin: 20px 0 0 100px;
+}
+
+@media screen and (max-width: 500px) {
+  .pricing__input {
+    margin: 15px auto 0;
+  }}

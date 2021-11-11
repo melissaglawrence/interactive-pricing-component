@@ -1,0 +1,102 @@
+<!DOCTYPE html>
+<html lang="en">
+  <head>
+    <meta charset="UTF-8" />
+    <meta name="viewport" content="width=device-width, initial-scale=1.0" />
+    <link
+      rel="icon"
+      type="image/png"
+      sizes="32x32"
+      href="./images/favicon-32x32.png"
+    />
+    <link href="index.css" rel="stylesheet" />
+    <link
+      href="https://fonts.googleapis.com/css2?family=Manrope:wght@600;800&display=swap"
+      rel="stylesheet"
+    />
+    <title>Frontend Mentor | Interactive pricing component</title>
+  </head>
+  <body class="page">
+    <header class="header">
+      <h1 class="header__title">Simple, traffic-based pricing</h1>
+      <p class="header__subtitle subtitle">
+        Sign-up for our 30-day trial. No credit card required.
+      </p>
+    </header>
+    <section class="billing">
+      <div class="pricing">
+        <div class="pricing__container">
+          <p class="pricing__views">
+            <span class="pricing__page-views">100K</span> Pageviews
+          </p>
+          <p class="pricing__monthly">
+            <span class="pricing__monthly-price">$16</span> /month
+          </p>
+          <input type="range" step="20" name="views" class="pricing__range" />
+        </div>
+        <div class="pricing__input">
+          <form class="pricing__radio">
+            <label for="pricingMonth" class="pricing__radio_label"
+              >Monthly Billing</label
+            >
+            <div class="pricing__radio_button">
+              <input
+                type="radio"
+                name="pricingInput"
+                class="radio pricing__radio_month"
+                id="pricingMonth"
+                value="pricingMonthly"
+              />
+              <input
+                type="radio"
+                name="pricingInput"
+                class="radio pricing__radio_year"
+                id="pricingYear"
+                value="pricingYearly"
+                checked="checked"
+              />
+            </div>
+            <label for="pricingYear" class="pricing__radio_label"
+              >Yearly Billing
+            </label>
+          </form>
+          <p class="pricing__discount"></p>
+        </div>
+      </div>
+      <div class="trial">
+        <div class="perks">
+          <p class="perk perk__web subtitle">
+            <img
+              src="images/icon-check.svg"
+              alt="checkmark"
+              class="perk__checkmark"
+            />
+            Unlimited websites
+          </p>
+          <p class="perk perk__data subtitle">
+            <img
+              src="images/icon-check.svg"
+              alt="checkmark"
+              class="perk__checkmark"
+            />100% data ownership
+          </p>
+          <p class="perk perk__email subtitle">
+            <img
+              src="images/icon-check.svg"
+              alt="checkmark"
+              class="perk__checkmark"
+            />Email reports
+          </p>
+        </div>
+        <button class="perk__cta">Start my trial</button>
+      </div>
+    </section>
+    <div class="attribution">
+      Challenge by
+      <a href="https://www.frontendmentor.io?ref=challenge" target="_blank" class="attribution__link"
+        >Frontend Mentor</a
+      >. Coded by <a href="#" class="attribution__link">melissa Lawrence</a>.
+    </div>
+    <script src="script.js"></script>
+  </body>
+</html>

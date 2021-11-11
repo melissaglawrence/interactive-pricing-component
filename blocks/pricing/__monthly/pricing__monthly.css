@@ -1,0 +1,5 @@
+.pricing__monthly {
+  vertical-align: middle;
+  grid-column: 3 / 4;
+  text-align: right;
+}

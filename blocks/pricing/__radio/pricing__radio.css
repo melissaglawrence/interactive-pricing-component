@@ -1,0 +1,10 @@
+.pricing__radio {
+  display: flex;
+  justify-content: center;
+  position: relative;
+}
+
+@media screen and (max-width: 500px) {
+  .pricing__radio {
+    font-size: 15px;
+  }}

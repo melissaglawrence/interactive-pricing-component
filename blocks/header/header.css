@@ -1,0 +1,9 @@
+.header {
+  background-image: url(images/pattern-circles.svg);
+  background-repeat: no-repeat;
+  background-position: center;
+  text-align: center;
+  line-height: 0.9;
+  padding: 30px;
+  margin: 40px;
+}

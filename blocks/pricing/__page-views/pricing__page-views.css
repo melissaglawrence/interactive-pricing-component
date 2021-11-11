@@ -1,0 +1,7 @@
+@media screen and (max-width: 500px) {
+  .pricing__page-views {
+    margin: 0 auto 15px;
+    grid-column: 2 / 3;
+    grid-row: 0 / 1;
+  }
+}

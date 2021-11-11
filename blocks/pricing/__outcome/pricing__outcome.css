@@ -1,0 +1,5 @@
+.pricing__outcome {
+  display: flex;
+  justify-content: space-between;
+  align-items: center;
+}

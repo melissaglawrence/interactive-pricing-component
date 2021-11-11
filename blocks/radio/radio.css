@@ -1,0 +1,18 @@
+.radio {
+  -webkit-appearance: none;
+  -moz-appearance: none;
+  appearance: none;
+  width: 16px;
+  height: 16px;
+  border: 2px solid hsl(223, 50%, 87%);
+  transition: 0.2s all linear;
+  margin: 1.5px 0 0 0;
+  padding: 0;
+  position: relative;
+}
+
+.radio:checked {
+  border: 2px solid hsl(223, 50%, 87%);
+  border-radius: 50%;
+  background-color: white;
+}

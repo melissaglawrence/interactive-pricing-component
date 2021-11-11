@@ -1,0 +1,7 @@
+.pricing__views {
+  text-transform: uppercase;
+  color: hsl(225, 20%, 60%);
+  font-size: 14px;
+  font-weight: 800;
+  align-self: center;
+}

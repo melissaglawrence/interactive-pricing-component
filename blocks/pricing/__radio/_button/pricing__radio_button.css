@@ -1,0 +1,7 @@
+.pricing__radio_button {
+  background-color: hsl(223, 50%, 87%);
+  height: 20px;
+  width: 35px;
+  border-radius: 20px;
+  margin: 0 5px;
+}
